@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import 'tachyons';
 import React from 'react';
 
 const Card = ({name, email, id}) => {

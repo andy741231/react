@@ -15,7 +15,7 @@ const Cardlist = ({ robots }) => {
     )
   });
   return (
-    <div className='container'>
+    <div>
     <div className='row'>
       {cardloop}
     </div>
