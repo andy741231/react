@@ -1,16 +1,16 @@
 import React from "react";
 
-const Searchbox = () => {
+const Searchbox = ({schange}) => {
     return (
         <div className="mt-5">
-           <form class="row">
+           <form className="row">
            
-                <div class="col-auto ms-auto">
-                    <input type="search" class="form-control" placeholder="Search"></input>
+                <div className="col-auto ms-auto">
+                    <input type="search" className="form-control" placeholder="Search" onChange={schange}></input>
                 </div>
                 
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                <div className="col-auto">
+                    <button type="submit" className="btn btn-primary">Submit</button>
                 </div>
 
             </form>
@@ -18,4 +18,14 @@ const Searchbox = () => {
     )
 }
 
+/*
+STATE
+PROPS - Pure Components
+Class extends render()
+constructor()
+this
+super()
+onchange
+
+*/
 export default Searchbox;
